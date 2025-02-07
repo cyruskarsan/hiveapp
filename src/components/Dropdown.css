@@ -1,0 +1,31 @@
+.dropdown {
+    position: relative;
+    width: 200px;
+}
+
+.dropdown-button {
+    border: 1px solid #ccc;
+    padding: 8px;
+    cursor: pointer;
+    background: white;
+    text-align: center;
+}
+
+.dropdown-menu {
+    position: absolute;
+    border: 1px solid #ccc;
+    background: white;
+    width: 100%;
+    margin-top: 4px;
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background: #f0f0f0;
+}
